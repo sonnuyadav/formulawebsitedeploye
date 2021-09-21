@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAGA,gBACI,UACJ,CACA,GACI,SACJ","file":"main.dafd1889.chunk.css","sourcesContent":[".App {\r\n\r\n}\r\n.classes-info p{\r\n    color:#222222;\r\n}\r\nul{\r\n    padding: 0;\r\n}"]}
