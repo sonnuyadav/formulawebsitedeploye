@@ -5831,7 +5831,7 @@ ul {
     background-color: white;
     height: 40px;
     position: relative;
-    background: white url('../img/arrow-select.svg');
+    background: white url('../images/arrow-select.svg');
     background-position: calc(100% - 15px) center;
     background-repeat: no-repeat;
     padding-right: 38px
@@ -5842,7 +5842,7 @@ ul {
     border: none;
     box-shadow: none;
     background-color: transparent;
-    background: url('../img/arrow-select.svg');
+    background: url('../images/arrow-select.svg');
     background-position: calc(100% - 15px) center;
     background-repeat: no-repeat;
     padding-right: 38px
@@ -5854,6 +5854,7 @@ ul {
 }
 .h3Service{
     font-size: 18px; text-align: left; margin: 20px 0px 10px 0px;
+    
 }
 
 .service{

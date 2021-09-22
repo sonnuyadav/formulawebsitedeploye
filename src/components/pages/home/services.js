@@ -2,40 +2,38 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import serviceImage from "../../../assets/images/RELOCATION.jpg";
+import serviceImage from "../../../assets/images/business-mobility.jpg";
+import serviceImage1 from "../../../assets/images/employee-mobility.jpg";
 const Services = (props) => {
   const [index, setIndex] = useState(0);
   return (
     <>
    
-   <section className="home-section">
-            <div className="container">
-                <div className="heading-section aos-init aos-animate" data-aos="fade-up" data-aos-duration="500">
-                    <h2 className="home-section-title">Services</h2>
-                    <p className="text-left p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                        molestie.</p>
+   <section class="home-section">
+            <div class="container">
+                <div class="heading-section aos-init aos-animate" data-aos="fade-up" data-aos-duration="500">
+                    <h2 class="home-section-title">Our Solutions</h2>
                 </div>
 
-                <div className="home-section-content">
-                    <div className="row">
-
-                        <div className="col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="500">
-                            <div className="abt-org-col">
-                                <div className="abt-org-col-text">
-                                    <div className="sbc-banner">
-                                        <a href="#">
-                                            <img className="img-fluid img-rounded" alt="..." src={serviceImage}/>
+                <div class="home-section-content">
+                    <div class="row">
+                        <div class="col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="500">
+                            <div class="abt-org-col">
+                                <div class="abt-org-col-text">
+                                    <div class="sbc-banner">
+                                        <a href="employee-mobility.html">
+                                            <img class="img-fluid img-rounded" alt="..." src={serviceImage1}/>
                                         </a>
                                     </div>
-                                    <h3 className="h3Service">RELOCATION
+                                    <h3 class="h3Service">EMPLOYEE MOBILITY
                                     </h3>
-                                    <div className="p-text service">Lorem ipsum
+                                    <div class="p-text service">Lorem ipsum
                                         dolor sit amet, consectetur adipiscing elit. Nullam quis tempor nisi. Mauris
                                         commodo luctus risus non.</div>
-                                    <div className="res-circle">
-                                        <div className="circle-icon">
-                                            <a href="single-services.html"><FontAwesomeIcon icon={faArrowRight} size='md' /></a>
-                                            <a href="single-services.html" className="circle-txt">
+                                    <div class="res-circle">
+                                        <div class="circle-icon">
+                                            <a href="employee-mobility.html"><FontAwesomeIcon icon={faArrowRight} /></a>
+                                            <a href="employee-mobility.html" class="circle-txt">
                                                 <p>Read more</p>
                                             </a>
 
@@ -47,23 +45,23 @@ const Services = (props) => {
                             </div>
                         </div>
 
-                        <div className="col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="500">
-                            <div className="abt-org-col">
-                                <div className="abt-org-col-text">
-                                    <div className="sbc-banner">
-                                        <a href="#">
-                                            <img className="img-fluid img-rounded" alt="..." src={serviceImage}/>
+                        <div class="col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="500">
+                            <div class="abt-org-col">
+                                <div class="abt-org-col-text">
+                                    <div class="sbc-banner">
+                                        <a href="/">
+                                            <img class="img-fluid img-rounded" alt="..." src={serviceImage}/>
                                         </a>
                                     </div>
-                                    <h3 className="h3Service">
-                                        IMMIGRATION</h3>
-                                    <div className="p-text service">Lorem ipsum
+                                    <h3 class="h3Service">
+                                        BUSINESS MOBILITY</h3>
+                                    <div class="p-text service">Lorem ipsum
                                         dolor sit amet, consectetur adipiscing elit. Nullam quis tempor nisi. Mauris
                                         commodo luctus risus non.</div>
-                                    <div className="res-circle">
-                                        <div className="circle-icon">
-                                            <a href="single-services.html"><FontAwesomeIcon icon={faArrowRight} size='md' /></a>
-                                            <a href="single-services.html" className="circle-txt">
+                                    <div class="res-circle">
+                                        <div class="circle-icon">
+                                            <a href="/"><FontAwesomeIcon icon={faArrowRight} /></a>
+                                            <a href="/" class="circle-txt">
                                                 <p>Read more</p>
                                             </a>
 
@@ -74,124 +72,10 @@ const Services = (props) => {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="500">
-                            <div className="abt-org-col">
-                                <div className="abt-org-col-text">
-                                    <div className="sbc-banner">
-                                        <a href="#">
-                                            <img className="img-fluid img-rounded" alt="..." src={serviceImage}/>
-                                        </a>
-                                    </div>
-                                    <h3 className="h3Service">CULTURAL
-                                        TRAINING SOLUTION</h3>
-                                    <div className="p-text service">Lorem ipsum
-                                        dolor sit amet, consectetur adipiscing elit. Nullam quis tempor nisi. Mauris
-                                        commodo luctus risus non.</div>
-                                    <div className="res-circle">
-                                        <div className="circle-icon">
-                                            <a href="single-services.html"><FontAwesomeIcon icon={faArrowRight} size='md' /></a>
-                                            <a href="single-services.html" className="circle-txt">
-                                                <p>Read more</p>
-                                            </a>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="500">
-                            <div className="abt-org-col">
-                                <div className="abt-org-col-text">
-                                    <div className="sbc-banner">
-                                        <a href="#">
-                                            <img className="img-fluid img-rounded" alt="..."
-                                                src={serviceImage}/>
-                                        </a>
-                                    </div>
-                                    <h3 className="h3Service">CORPORATE
-                                        HOUSING</h3>
-                                    <div className="p-text service">Lorem ipsum
-                                        dolor sit amet, consectetur adipiscing elit. Nullam quis tempor nisi. Mauris
-                                        commodo luctus risus non.</div>
-                                    <div className="res-circle">
-                                        <div className="circle-icon">
-                                            <a href="single-services.html"><FontAwesomeIcon icon={faArrowRight} size='md' /></a>
-                                            <a href="single-services.html" className="circle-txt">
-                                                <p>Read more</p>
-                                            </a>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="500">
-                            <div className="abt-org-col">
-                                <div className="abt-org-col-text">
-                                    <div className="sbc-banner">
-                                        <a href="#">
-                                            <img className="img-fluid img-rounded" alt="..." src={serviceImage}/>
-                                        </a>
-                                    </div>
-                                    <h3 className="h3Service">FURNITURE
-                                        RENTAL</h3>
-                                    <div className="p-text service">Lorem ipsum
-                                        dolor sit amet, consectetur adipiscing elit. Nullam quis tempor nisi. Mauris
-                                        commodo luctus risus non.</div>
-                                    <div className="res-circle">
-                                        <div className="circle-icon">
-                                            <a href="single-services.html"><FontAwesomeIcon icon={faArrowRight} size='md' /></a>
-                                            <a href="single-services.html" className="circle-txt">
-                                                <p>Read more</p>
-                                            </a>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="500">
-                            <div className="abt-org-col">
-                                <div className="abt-org-col-text">
-                                    <div className="sbc-banner">
-                                        <a href="#">
-                                            <img className="img-fluid img-rounded" alt="..." src={serviceImage}/>
-                                        </a>
-                                    </div>
-                                    <h3 className="h3Service">TRAVEL
-                                    </h3>
-                                    <div className="p-text service">Lorem ipsum
-                                        dolor sit amet, consectetur adipiscing elit. Nullam quis tempor nisi. Mauris
-                                        commodo luctus risus non.</div>
-                                    <div className="res-circle">
-                                        <div className="circle-icon">
-                                            <a href="single-services.html"><FontAwesomeIcon icon={faArrowRight} size='md' /></a>
-                                            <a href="single-services.html" className="circle-txt">
-                                                <p>Read more</p>
-                                            </a>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
-            <div className="vl"></div>
+            <div class="vl"></div>
         </section>
     </>
   );

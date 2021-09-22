@@ -10,18 +10,18 @@ const Happycustomers = (props) => {
                 <div className="row">
                     <div className="col-md-4 counter-block text-center aos-init aos-animate" data-aos="fade-up"
                         data-aos-duration="500">
-                        <p className="display-3 count-box text-dark"><span className="counter">2000</span><span>+</span></p>
+                        <p className="display-3 count-box text-dark"><span className="counter">2000</span></p>
                         <p className="h5 text-box text-gray">Happy Clients</p>
                     </div>
                     <div className="col-md-4 mb-4 counter-block text-center aos-init aos-animate" data-aos="fade-up"
                         data-aos-duration="500">
-                        <p className="display-3 count-box text-dark"><span className="counter">9</span><span>+</span></p>
-                        <p className="h5 text-box text-gray">Office Location</p>
+                        <p className="display-3 count-box text-dark"><span className="counter">25</span></p>
+                        <p className="h5 text-box text-gray">Cities</p>
                     </div>
                     <div className="col-md-4 mb-4 counter-block text-center aos-init aos-animate" data-aos="fade-up"
                         data-aos-duration="500">
-                        <p className="display-3 count-box text-dark"><span className="counter">500</span><span>+</span></p>
-                        <p className="h5 text-box text-gray">Office Staff</p>
+                        <p className="display-3 count-box text-dark"><span className="counter">2004</span></p>
+                        <p className="h5 text-box text-gray">Since</p>
                     </div>
                 </div>
             </div>

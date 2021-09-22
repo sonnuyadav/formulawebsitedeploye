@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.dafd1889.chunk.css",
-    "main.js": "/static/js/main.a6a04432.chunk.js",
-    "main.js.map": "/static/js/main.a6a04432.chunk.js.map",
+    "main.js": "/static/js/main.af0cc115.chunk.js",
+    "main.js.map": "/static/js/main.af0cc115.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9b9e8bd4.js",
     "runtime-main.js.map": "/static/js/runtime-main.9b9e8bd4.js.map",
     "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
-    "static/js/2.46ab89a2.chunk.js": "/static/js/2.46ab89a2.chunk.js",
-    "static/js/2.46ab89a2.chunk.js.map": "/static/js/2.46ab89a2.chunk.js.map",
+    "static/js/2.69449681.chunk.js": "/static/js/2.69449681.chunk.js",
+    "static/js/2.69449681.chunk.js.map": "/static/js/2.69449681.chunk.js.map",
     "static/js/3.a6654303.chunk.js": "/static/js/3.a6654303.chunk.js",
     "static/js/3.a6654303.chunk.js.map": "/static/js/3.a6654303.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/static/css/2.ec02d681.chunk.css.map",
     "static/css/main.dafd1889.chunk.css.map": "/static/css/main.dafd1889.chunk.css.map",
-    "static/js/2.46ab89a2.chunk.js.LICENSE.txt": "/static/js/2.46ab89a2.chunk.js.LICENSE.txt",
+    "static/js/2.69449681.chunk.js.LICENSE.txt": "/static/js/2.69449681.chunk.js.LICENSE.txt",
     "static/media/Formula Party_1.320f8316.png": "/static/media/Formula Party_1.320f8316.png",
     "static/media/Formula-Car-Rental.fa436e38.jpg": "/static/media/Formula-Car-Rental.fa436e38.jpg",
     "static/media/Formula-Party_1.320f8316.png": "/static/media/Formula-Party_1.320f8316.png",
@@ -25,13 +25,14 @@
     "static/media/Formula-Serviced-Apartment.58ec7122.jpg": "/static/media/Formula-Serviced-Apartment.58ec7122.jpg",
     "static/media/Holiday-Representations.bd38d612.jpg": "/static/media/Holiday-Representations.bd38d612.jpg",
     "static/media/IMMIGRATION.2ed65728.jpg": "/static/media/IMMIGRATION.2ed65728.jpg",
-    "static/media/RELOCATION.94f3c62e.jpg": "/static/media/RELOCATION.94f3c62e.jpg",
     "static/media/Suraksha.e5d9e42c.jpg": "/static/media/Suraksha.e5d9e42c.jpg",
     "static/media/The-Travel-Formula.67360122.jpg": "/static/media/The-Travel-Formula.67360122.jpg",
     "static/media/awards-1.fde7a44a.jpg": "/static/media/awards-1.fde7a44a.jpg",
     "static/media/awards.6279e892.jpg": "/static/media/awards.6279e892.jpg",
+    "static/media/business-mobility.50123ab0.jpg": "/static/media/business-mobility.50123ab0.jpg",
     "static/media/csr-team.dfd2fa54.jpg": "/static/media/csr-team.dfd2fa54.jpg",
     "static/media/csr.6052aec2.jpg": "/static/media/csr.6052aec2.jpg",
+    "static/media/employee-mobility.60e81436.jpg": "/static/media/employee-mobility.60e81436.jpg",
     "static/media/facebook-f-brands.97a3a054.svg": "/static/media/facebook-f-brands.97a3a054.svg",
     "static/media/formula-map.18ef1241.png": "/static/media/formula-map.18ef1241.png",
     "static/media/formula-value.71dfae44.jpg": "/static/media/formula-value.71dfae44.jpg",
@@ -49,8 +50,8 @@
   "entrypoints": [
     "static/js/runtime-main.9b9e8bd4.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.46ab89a2.chunk.js",
+    "static/js/2.69449681.chunk.js",
     "static/css/main.dafd1889.chunk.css",
-    "static/js/main.a6a04432.chunk.js"
+    "static/js/main.af0cc115.chunk.js"
   ]
 }
